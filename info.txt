@@ -1,0 +1,28 @@
+put it inside
+
+C:\Windows\System32
+
+Create a Task Scheduler
+
+Inside General Run with highest privileges
+
+Keep Trigger daily or weekly accordingly 
+
+Action = Start a program
+
+Put this inside 
+
+Program/script C:\Windows\System32\shutdown.bat
+
+Condition inside Power
+
+Start the task only if the computer is on AC Power.
+Stop  if computer switches to battery power.
+
+Run a new instance in parallel.
+
+Click ok
+ 
+
+# Otherwise check for 
+C:\Windows\System32\shutdown.exe is working or not then only use the above one.
